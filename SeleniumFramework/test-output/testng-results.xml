@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25328" started-at="2021-02-15T08:50:56Z" finished-at="2021-02-15T08:51:21Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="20361" started-at="2021-02-15T08:50:56Z" finished-at="2021-02-15T08:51:17Z">
+      <class name="E2EProject.Framework.HomePageTest">
+        <test-method status="PASS" signature="startlaunch()[pri:0, instance:E2EProject.Framework.HomePageTest@b2c9a9c]" name="startlaunch" is-config="true" duration-ms="17071" started-at="2021-02-15T14:20:56Z" finished-at="2021-02-15T14:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startlaunch -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EProject.Framework.HomePageTest@b2c9a9c]" name="basePageNavigation" duration-ms="2520" started-at="2021-02-15T14:21:13Z" data-provider="getData" finished-at="2021-02-15T14:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:E2EProject.Framework.HomePageTest@b2c9a9c]" name="Teardown" is-config="true" duration-ms="733" started-at="2021-02-15T14:21:16Z" finished-at="2021-02-15T14:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- E2EProject.Framework.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test name="storePageElementTest" duration-ms="23135" started-at="2021-02-15T08:50:56Z" finished-at="2021-02-15T08:51:19Z">
+      <class name="E2EProject.Framework.storePageElementTest">
+        <test-method status="PASS" signature="startlaunch()[pri:0, instance:E2EProject.Framework.storePageElementTest@17f7cd29]" name="startlaunch" is-config="true" duration-ms="22213" started-at="2021-02-15T14:20:56Z" finished-at="2021-02-15T14:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startlaunch -->
+        <test-method status="PASS" signature="storePageElement()[pri:0, instance:E2EProject.Framework.storePageElementTest@17f7cd29]" name="storePageElement" duration-ms="732" started-at="2021-02-15T14:21:18Z" finished-at="2021-02-15T14:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storePageElement -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:E2EProject.Framework.storePageElementTest@17f7cd29]" name="Teardown" is-config="true" duration-ms="184" started-at="2021-02-15T14:21:19Z" finished-at="2021-02-15T14:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- E2EProject.Framework.storePageElementTest -->
+    </test> <!-- storePageElementTest -->
+    <test name="ValidateNavigationBarTest" duration-ms="25328" started-at="2021-02-15T08:50:56Z" finished-at="2021-02-15T08:51:21Z">
+      <class name="E2EProject.Framework.ValidateNavigationBarTest">
+        <test-method status="PASS" signature="startlaunch()[pri:0, instance:E2EProject.Framework.ValidateNavigationBarTest@4e50c791]" name="startlaunch" is-config="true" duration-ms="20196" started-at="2021-02-15T14:20:56Z" finished-at="2021-02-15T14:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startlaunch -->
+        <test-method status="PASS" signature="ValidatenavigationBar()[pri:0, instance:E2EProject.Framework.ValidateNavigationBarTest@4e50c791]" name="ValidatenavigationBar" duration-ms="358" started-at="2021-02-15T14:21:16Z" finished-at="2021-02-15T14:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatenavigationBar -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:E2EProject.Framework.ValidateNavigationBarTest@4e50c791]" name="Teardown" is-config="true" duration-ms="4764" started-at="2021-02-15T14:21:17Z" finished-at="2021-02-15T14:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- E2EProject.Framework.ValidateNavigationBarTest -->
+    </test> <!-- ValidateNavigationBarTest -->
+  </suite> <!-- Suite -->
+</testng-results>

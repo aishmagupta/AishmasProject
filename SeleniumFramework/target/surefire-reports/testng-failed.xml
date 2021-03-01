@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="E2EProject.Framework.storePageElementTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="startlaunch"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.storePageElementTest -->
+      <class name="E2EProject.Framework.HomePageTest">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="startlaunch"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.HomePageTest -->
+      <class name="E2EProject.Framework.ValidateNavigationBarTest">
+        <methods>
+          <include name="startlaunch"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.ValidateNavigationBarTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

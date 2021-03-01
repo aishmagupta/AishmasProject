@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="E2EProject.Framework.Listerners"/>
+  </listeners>
+  <test name="storePageElementTest(failed)" parallel="tests">
+    <classes>
+      <class name="E2EProject.Framework.ValidateNavigationBarTest">
+        <methods>
+          <include name="startlaunch"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.ValidateNavigationBarTest -->
+      <class name="E2EProject.Framework.storePageElementTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="storePageElement"/>
+          <include name="startlaunch"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.storePageElementTest -->
+      <class name="E2EProject.Framework.HomePageTest">
+        <methods>
+          <include name="startlaunch"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.HomePageTest -->
+    </classes>
+  </test> <!-- storePageElementTest(failed) -->
+  <test name="HomePageTest(failed)" parallel="tests">
+    <classes>
+      <class name="E2EProject.Framework.ValidateNavigationBarTest">
+        <methods>
+          <include name="startlaunch"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.ValidateNavigationBarTest -->
+      <class name="E2EProject.Framework.storePageElementTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="startlaunch"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.storePageElementTest -->
+      <class name="E2EProject.Framework.HomePageTest">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="startlaunch"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Framework.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
